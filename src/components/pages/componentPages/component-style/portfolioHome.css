@@ -30,7 +30,23 @@
 }
 
 .portfolio-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
     border-radius: 15px;
+    background-color: #dacdcd;
+}
+
+.portfolio-section::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.portfolio-section::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.portfolio-section::-webkit-scrollbar-corner {
+    background-color: transparent;
 }
 
 .card {
