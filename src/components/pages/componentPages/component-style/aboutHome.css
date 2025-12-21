@@ -1,0 +1,47 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.image-about {
+    height: 300px;
+}
+
+.caption-about {
+    position: relative;
+    top: -30px;
+    display: inline-block;
+
+    font-size: 25px;
+    width: 100%;
+}
+
+.caption-about::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gray; 
+  }
+
+.text-about {
+    position: relative;
+    padding-left: 40px;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.text-about::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}

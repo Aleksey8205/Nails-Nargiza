@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    font-family: opensansBold;
+    font-size: 1rem;
+
+    background-color: rgb(179 177 177);
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.nav-btn:active {
+    transform: translateY(2px);
+}

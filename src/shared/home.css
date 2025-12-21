@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-beauty {
+    text-align: right;
+}
+
+.video-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+.video {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+.btn-accept {
+
+}
+
+.image-face {
+    width: 400px;
+    height: 500px;
+
+}

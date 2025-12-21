@@ -1,0 +1,42 @@
+{
+  "name": "nails-nargiza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "jsdom": "^27.0.0",
+    "jsx-loader": "^0.9.0",
+    "loader-utils": "^3.3.1",
+    "react-helmet": "^6.1.0",
+    "react-link": "^1.0.3",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^7.9.1",
+    "react-spring": "^10.0.3",
+    "react-use-gesture": "^9.1.3"
+  }
+}

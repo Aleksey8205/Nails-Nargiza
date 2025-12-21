@@ -1,0 +1,44 @@
+.portfolio {
+    margin-bottom: 50px;
+}
+
+.caption-portfolio{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.caption-portfolio::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: gray; 
+}
+
+.portfolio-section {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.portfolio-section::-webkit-scrollbar {
+    border-radius: 15px;
+}
+
+.card {
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
