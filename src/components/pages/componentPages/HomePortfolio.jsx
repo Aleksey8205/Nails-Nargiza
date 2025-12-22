@@ -6,24 +6,23 @@ import "./component-style/portfolioHome.css";
 import { animated, useSpring } from "react-spring";
 
 const clamp = (value, clampAt = 30) => {
-    if (value > 0) {
-      return value > clampAt ? clampAt : value;
-    } else {
-      return value < -clampAt ? -clampAt : value;
-    }
-  };
+  if (value > 0) {
+    return value > clampAt ? clampAt : value;
+  } else {
+    return value < -clampAt ? -clampAt : value;
+  }
+};
 
 const HomePortfolio = () => {
-    const [style, set] = useSpring(() => ({
-        transform: "perspective(500px) rotateY(0deg)"
-        }));
-        const bind = useScroll(event => {
-        set({
-        transform: `perspective(500px) rotateY(${
-        event.scrolling ? clamp(event.delta[0]) : 0
+  const [style, set] = useSpring(() => ({
+    transform: "perspective(500px) rotateY(0deg)"
+  }));
+  const bind = useScroll(event => {
+    set({
+      transform: `perspective(500px) rotateY(${event.scrolling ? clamp(event.delta[0]) : 0
         }deg)`
-        });
-        });
+    });
+  });
 
   return (
     <>
