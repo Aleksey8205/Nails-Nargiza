@@ -1,0 +1,44 @@
+.price-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-box {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.service-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+
+.caption-price {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+
+    font-size: 25px;
+    width: 100%;
+}
+
+.caption-price::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}

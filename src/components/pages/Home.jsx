@@ -4,7 +4,9 @@ import face from "../../public/images/face-image.jpg"
 import "../../shared/home.css";
 
 import HomeAbout from "./componentPages/HomeAbout.jsx";
-import HomePortfolio from "./componentPages/HomePortfolio.jsx";
+import HomePortfolio from "./componentPages/Homeportfolio.jsx";
+import Price from "./componentPages/Price.jsx";
+import ShedulePlain from "./componentPages/ShedulePlain.jsx";
 
 const Home = () => {
 
@@ -31,6 +33,8 @@ const Home = () => {
       </div>
       <HomeAbout />
       <HomePortfolio />
+      <Price /> 
+      <ShedulePlain />
     </>
   );
 };
