@@ -1,7 +1,16 @@
 .price-box {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+    background-image: url("../../../../public/images/nail-price.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left ;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:last baseline;
+    padding: 20px 20px 0px;
 }
 
 .service-box {

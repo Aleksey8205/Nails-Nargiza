@@ -58,3 +58,9 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@media (max-width: 600px) {
+    .caption-portfolio {
+        font-size: 16px;
+    }
+}

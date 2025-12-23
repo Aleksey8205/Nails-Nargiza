@@ -13,7 +13,7 @@ const Price = () => {
         <p class="service-item">Маникюр с покрытием <span class="price">1500</span></p>
         <p class="service-item">Укрепление твердым материалом(гель, полигель) <span class="price">500</span></p>
         <p class="service-item">Френч <span class="price">200</span></p>
-        <p class="service-item">Втирка, блёстки, фольга, стемпинг <span class="price">50</span> <span class="price">(1 ноготь)</span></p>
+        <p class="service-item">Втирка, блёстки, фольга, стемпинг <span class="price">50</span> <span class="price">(ноготь)</span></p>
         <p class="service-item">Снятие без покрытия <span class="price">300</span></p>
         <p class="service-item">Снятие нарощенных ногтей <span class="price">400</span></p>
     </div>

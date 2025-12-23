@@ -25,7 +25,7 @@ body {
     padding: 0;
     background-color: rgb(219, 219, 219);
 
-    width: 1000px;
+    max-width: 1000px;
     justify-self: center;
     margin-bottom: 100px;
 }
@@ -47,4 +47,18 @@ ul, ol {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
+    }
 }

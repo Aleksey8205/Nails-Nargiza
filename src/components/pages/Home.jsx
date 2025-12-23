@@ -18,7 +18,7 @@ const Home = () => {
       <div className="main">
         <div className="video-container">
           <div className="text-container">
-            <h2>Имя Фамилия</h2>
+            <h2 className="caption-name">Имя Фамилия</h2>
             <p className="text-beauty">Лучший бьюти мастер</p>
           </div>
           <video className="video" autoPlay loop muted playsInline>
@@ -27,14 +27,12 @@ const Home = () => {
           </video>
           <button onClick={handleTelegramOpen} className="video-button">Записаться</button>
         </div>
-        <div>
           <img className="image-face" src={face} alt="" />
-        </div>
       </div>
-      <HomeAbout />
+      {/* <HomeAbout />
       <HomePortfolio />
       <Price /> 
-      <ShedulePlain />
+      <ShedulePlain /> */}
     </>
   );
 };
