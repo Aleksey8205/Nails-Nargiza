@@ -54,7 +54,7 @@
 
 @media (max-width: 600px) {
     .video {
-        width: 150px;
+        width: 100%;
 
     }
 

@@ -7,6 +7,7 @@
 
 .image-about {
     width: 300px;
+    object-fit: cover;
 }
 
 .caption-about {
@@ -42,13 +43,15 @@
     object-fit: cover;
 }
 
-
-
 .text-about {
     position: relative;
     padding-left: 40px;
     line-height: 2.5;
     font-size: 20px;
+}
+
+.addr {
+    font-size: 16px;
 }
 
 .text-about::before {
@@ -60,6 +63,7 @@
     width: 20px;
     height: 20px;
     background-color: gray;
+    border-radius: 5px;
 }
 
 /* Общие стили */
@@ -91,6 +95,45 @@
     background-image: url("../../../../public/images/instagram.png");
 }
 
-.social-phone::before{
+.social-phone::before {
     background-image: url("../../../../public/images/phone.png");
+}
+
+@media (max-width: 480px) {
+
+    .about-section {
+        gap: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .caption-about {
+        font-size: 14px;
+    }
+
+    .text-about {
+        font-size: 12px;
+        padding-left: 25px;
+        line-height: 1.2;
+    }
+
+    .social-icon {
+        font-size: 12px;
+        padding-left: 25px;
+        line-height: 2.2;
+    }
+
+    .image-about {
+        width: 150px;
+    }
+
+    .social-icon::before {
+        width: 21px;
+        height: 21px;
+    }
+
+    .addr {
+        font-size: 12px;
+    }
 }

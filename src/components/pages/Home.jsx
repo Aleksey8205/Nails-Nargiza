@@ -27,11 +27,11 @@ const Home = () => {
           </video>
           <button onClick={handleTelegramOpen} className="video-button">Записаться</button>
         </div>
-          <img className="image-face" src={face} alt="" />
+        <img className="image-face" src={face} alt="" />
       </div>
-      {/* <HomeAbout />
+      <HomeAbout />
       <HomePortfolio />
-      <Price /> 
+      {/* <Price />
       <ShedulePlain /> */}
     </>
   );
