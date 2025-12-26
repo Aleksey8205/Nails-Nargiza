@@ -24,10 +24,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(219, 219, 219);
-
-    max-width: 1000px;
-    justify-self: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 h1, h2, h3 {
@@ -47,18 +44,4 @@ ul, ol {
 a {
     text-decoration: none;
     color: black;
-}
-
-@media (max-width: 600px) {
-    h1 {
-        font-size: 15px;
-    }
-
-    h2 {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 13px;
-    }
 }

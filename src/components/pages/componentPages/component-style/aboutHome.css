@@ -1,12 +1,13 @@
 .about-section {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 10px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .image-about {
-    width: 300px;
+    width: 40%;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -15,8 +16,7 @@
     position: relative;
     top: -30px;
     display: inline-block;
-
-    font-size: 25px;
+    font-size: 16px;
     width: 100%;
 }
 
@@ -30,6 +30,9 @@
     background-color: gray;
 }
 
+.social-item {
+    padding-right: 15px;
+}
 
 .link_social {
     display: flex;
@@ -46,13 +49,12 @@
 
 .text-about {
     position: relative;
-    padding-left: 40px;
-    line-height: 2.5;
-    font-size: 20px;
+    padding-left: 15px;
+    font-size: 12px;
 }
 
 .addr {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .text-about::before {
@@ -61,18 +63,17 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: gray;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 /* Общие стили */
 .social-icon {
     position: relative;
-    padding-left: 50px;
-    line-height: 2.5;
-    font-size: 20px;
+    padding-left: 15px;
+    font-size: 12px;
 }
 
 .social-icon::before {
@@ -82,8 +83,8 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -98,45 +99,4 @@
 
 .social-phone::before {
     background-image: url("../../../../public/images/phone.png");
-}
-
-@media (max-width: 480px) {
-
-    .about-section {
-        gap: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
-
-    }
-
-    .caption-about {
-        font-size: 14px;
-    }
-
-    .text-about {
-        font-size: 12px;
-        padding-left: 25px;
-        line-height: 1.2;
-        margin-bottom: 10px;
-    }
-
-    .social-icon {
-        font-size: 12px;
-        padding-left: 25px;
-        line-height: 2.2;
-    }
-
-    .image-about {
-        width: 150px;
-
-    }
-
-    .social-icon::before {
-        width: 21px;
-        height: 21px;
-    }
-
-    .addr {
-        font-size: 12px;
-    }
 }

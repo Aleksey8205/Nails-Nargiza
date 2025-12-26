@@ -15,13 +15,14 @@ const Home = () => {
   };
   return (
     <>
+    <div className="container">
       <div className="main">
         <div className="video-container">
           <div className="text-container">
             <h2 className="caption-name">Имя Фамилия</h2>
             <p className="text-beauty">Лучший бьюти мастер</p>
           </div>
-          <video className="video" autoPlay loop muted playsInline>
+          <video className="video" autoPlay={true} loop muted playsInline>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -31,8 +32,9 @@ const Home = () => {
       </div>
       <HomeAbout />
       <HomePortfolio /> 
-      {/* <Price />
-      <ShedulePlain /> */}
+      </div>
+      <Price />
+      <ShedulePlain />
     </>
   );
 };

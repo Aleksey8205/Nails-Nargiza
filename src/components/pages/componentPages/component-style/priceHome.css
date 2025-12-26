@@ -1,31 +1,36 @@
 .price-box {
-
     background-image: url("../../../../public/images/nail-price.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left ;
-    border-radius: 15px;
+
+
+    padding: 10px 5px 10px;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items:last baseline;
-    padding: 20px 20px 0px;
+    gap: 10px;
+    filter: grayscale(0.5);
+
 }
+
 
 .service-box {
     background-color: #f4f4f4;
     border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 5px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    width: 150px;
+}
+
+.service-end {
+    align-self: flex-end;
 }
 
 .service-item {
-    margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 9px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .price {
@@ -35,10 +40,10 @@
 
 .caption-price {
     position: relative;
-    top: -20px;
+    top: -8px;
     display: inline-block;
 
-    font-size: 25px;
+    font-size: 12px;
     width: 100%;
 }
 

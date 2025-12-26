@@ -18,9 +18,9 @@ const Price = () => {
         <p class="service-item">Снятие нарощенных ногтей <span class="price">400</span></p>
     </div>
 
-    <div className=""></div>
 
-    <div className="service-box">
+
+    <div className="service-box service-end">
         <h3 className="caption-price">Педикюр</h3>
         <p class="service-item">Аппаратный педикюр <span class="price">900</span></p>
         <p class="service-item">Аппаратный педикюр с покрытием <span class="price">1800</span></p>
