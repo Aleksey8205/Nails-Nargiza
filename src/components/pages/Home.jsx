@@ -30,7 +30,7 @@ const Home = () => {
         <img className="image-face" src={face} alt="" />
       </div>
       <HomeAbout />
-      <HomePortfolio />
+      <HomePortfolio /> 
       {/* <Price />
       <ShedulePlain /> */}
     </>

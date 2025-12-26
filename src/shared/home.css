@@ -5,6 +5,7 @@
     margin-bottom: 50px;
     border-radius: 15px;
     overflow: hidden;
+
 }
 
 .video-container {
@@ -54,13 +55,16 @@
 }
 
 @media (max-width: 600px) {
-    .video {
-        width: 100%;
 
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
+    .video {}
+
     .image-face {
-        width: 150px;
+        width: 50%;
 
     }
 

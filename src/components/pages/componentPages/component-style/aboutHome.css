@@ -8,6 +8,7 @@
 .image-about {
     width: 300px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .caption-about {
@@ -115,7 +116,8 @@
     .text-about {
         font-size: 12px;
         padding-left: 25px;
-        line-height: 2.2;
+        line-height: 1.2;
+        margin-bottom: 10px;
     }
 
     .social-icon {
@@ -126,6 +128,7 @@
 
     .image-about {
         width: 150px;
+
     }
 
     .social-icon::before {

@@ -22,6 +22,7 @@
 }
 
 .portfolio-section {
+    box-sizing: border-box;
     display: flex;
     overflow-x: scroll;
     gap: 10px;
@@ -69,11 +70,14 @@
 
     .portfolio-section {
         padding: 0 15px 5px 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
     .portfolio {
         max-width: 400px;
+        overflow: hidden;
     }
 
     .caption-portfolio {
