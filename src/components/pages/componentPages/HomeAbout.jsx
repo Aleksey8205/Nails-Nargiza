@@ -10,7 +10,7 @@ const HomeAbout = () => {
         <img className="image-about" src={faces} alt="" />
         <div>
           <h2 className="caption-about">Немного о себе</h2>
-          <p  className="text-about">Например я мастер со стажем там 2 года или больше</p>
+          <p  className="text-about">Я занимаюсь маникюром более 2-х лет</p>
           <p  className="text-about">Для красивого маникюра я использую только качественые материалы</p>
           <p  className="text-about">работаю как аппаратным так и  любым другим?</p>
           {/* <div className="social-item">
