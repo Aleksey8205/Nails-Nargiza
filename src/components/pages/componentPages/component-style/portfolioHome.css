@@ -1,12 +1,12 @@
 .portfolio {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     justify-items: center;
 }
 
 .caption-portfolio {
     position: relative;
-    display: inline-block;
+    display: block;
     text-align: center;
     font-size: 16px;
     margin-bottom: 16px;
@@ -36,9 +36,9 @@
 
 .portfolio-section::-webkit-scrollbar {
     width: 8px;
-    height: 8px;
+    height: 6px;
     border-radius: 15px;
-    background-color: #dacdcd;
+    background-color: #808080;
 }
 
 .portfolio-section::-webkit-scrollbar-thumb {

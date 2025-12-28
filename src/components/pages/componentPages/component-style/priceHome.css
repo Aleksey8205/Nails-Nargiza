@@ -1,42 +1,64 @@
 .price-box {
-    background-image: url("../../../../public/images/nail-price.jpg");
+    background-image: url("../../../../public/images/price-new.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 20% 30%;
 
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 450px;
 
-    padding: 10px 5px 10px;
-
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 120px;
     gap: 10px;
-    filter: grayscale(0.5);
-
 }
 
+.nullBox {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.box-2 {
+     grid-column: span 2;
+     align-self: baseline;
+}
 
 .service-box {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 150px;
-}
-
-.service-end {
-    align-self: flex-end;
+    justify-self: center;
 }
 
 .service-item {
     font-size: 9px;
     padding-bottom: 4px;
-    border-bottom: 1px solid rgb(128, 128, 128);
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .price {
     font-weight: bold;
 }
 
+.caption-price-main {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.caption-price-main::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}
 
 .caption-price {
     position: relative;

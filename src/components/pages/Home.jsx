@@ -19,13 +19,11 @@ const Home = () => {
       <div className="main">
         <div className="video-container">
           <div className="text-container">
-            <h2 className="caption-name">Имя Фамилия</h2>
+            <h2 className="caption-name">Наргиз (фамилия)</h2>
             <p className="text-beauty">Лучший бьюти мастер</p>
+            <img src="" alt="" />
           </div>
-          <video className="video" autoPlay={true} loop muted playsInline>
-            <source src={video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+
           <button onClick={handleTelegramOpen} className="video-button">Записаться</button>
         </div>
         <img className="image-face" src={face} alt="" />
@@ -34,7 +32,9 @@ const Home = () => {
       <HomePortfolio /> 
       </div>
       <Price />
+      <div className="container">
       <ShedulePlain />
+      </div>
     </>
   );
 };

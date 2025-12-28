@@ -8,56 +8,55 @@
 .main {
     display: flex;
     justify-content: center;
-    gap: 5px;
     margin-bottom: 45px;
-    border-radius: 15px;
     overflow: hidden;
     width: 100%;
+    border-radius: 3px;
 }
 
 .video-container {
-    width: 50%;
+    background-image: url("../public/images/12345.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    filter: blur(4px);
+    filter: grayscale(6);
+    width: 100%;
     position: relative;
+
 }
 
 .text-container {
-    position: absolute;
-    top: 90px;
-    left: 40%;
-    transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(14, 14, 14);
 }
 
 .caption-name {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .text-beauty {
     text-align: right;
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .video-button {
     position: absolute;
-    top: 70%;
+    width: 100%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgba(193, 193, 193, 0.5);
+    color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 10px;
+    padding: 5px 5px;
     cursor: pointer;
     font-size: 13px;
+    font-weight: 500;
 }
 
-.video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 .image-face {
     width: 50%;

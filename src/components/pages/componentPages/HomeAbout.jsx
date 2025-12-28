@@ -10,10 +10,10 @@ const HomeAbout = () => {
         <img className="image-about" src={faces} alt="" />
         <div>
           <h2 className="caption-about">Немного о себе</h2>
-          <p  className="text-about">Rакое то описание возможно было бы</p>
-          <p  className="text-about">какое то описание возможно было бы</p>
-          <p  className="text-about">какое то описание возможно было бы</p>
-          <div className="social-item">
+          <p  className="text-about">Например я мастер со стажем там 2 года или больше</p>
+          <p  className="text-about">Для красивого маникюра я использую только качественые материалы</p>
+          <p  className="text-about">работаю как аппаратным так и  любым другим?</p>
+          {/* <div className="social-item">
             <a className="link_social" href="https://www.instagram.com/nogti_podolsk5?igsh=MW5scGlycWIwbW53Zg%3D%3D&utm_source=qr">
               <p className="social-icon social-instagram">Instagram</p>
               <p className="addr">nogti_podolsk5</p>
@@ -26,7 +26,7 @@ const HomeAbout = () => {
               <p className="social-icon social-phone">Телефон</p>
               <p className="addr">+7(994)-555-00-06</p>
             </a>
-          </div>
+          </div> */}
 
         </div>
       </section>
