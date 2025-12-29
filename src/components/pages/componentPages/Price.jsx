@@ -4,7 +4,7 @@ import "./component-style/priceHome.css";
 const Price = () => {
   return (
     <>
-      <section>
+      <section className="price-list">
     <h2 className="caption-price-main">Прайс</h2>
     <div className="price-box">
       <div className="nullBox"></div>

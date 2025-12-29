@@ -1,7 +1,7 @@
 .container {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(100% - 10px);
     justify-self: center;
 }
 
@@ -61,4 +61,12 @@
 .image-face {
     width: 50%;
     object-fit: cover;
+}
+
+
+@media (min-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
 }
