@@ -1,0 +1,71 @@
+.back-pint {
+    height: 150px;
+    background-image: url("../../../../public/images/pint-shedule.jpeg");
+    background-size: cover;
+    background-position: 20% 25%;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    margin-top: 35px;
+}
+
+.shedule {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    z-index: -1;
+    margin-top: 20px;
+}
+
+.shedule::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../public/images/green-back.jpeg');
+    background-size: cover;
+    background-position: 20% 60%;
+    filter: blur(5px); 
+    z-index: -1;
+}
+
+
+.chart {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+}
+
+.schedule-item {
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.schedule-item::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid rgb(80, 80, 80);
+    border-left: 1px solid rgb(80, 80, 80);
+}
+
+.schedule-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+}
+
