@@ -30,23 +30,6 @@
     background-color: gray;
 }
 
-.social-item {
-    padding-right: 15px;
-}
-
-.link_social {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.about-social {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-}
-
 .text-about {
     position: relative;
     padding-left: 15px;
@@ -69,34 +52,3 @@
     border-radius: 3px;
 }
 
-/* Общие стили */
-.social-icon {
-    position: relative;
-    padding-left: 15px;
-    font-size: 12px;
-}
-
-.social-icon::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 10px;
-    height: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.social-telegram::before {
-    background-image: url("../../../../public/images/telegram.png");
-}
-
-.social-instagram::before {
-    background-image: url("../../../../public/images/instagram.png");
-}
-
-.social-phone::before {
-    background-image: url("../../../../public/images/phone.png");
-}

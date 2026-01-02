@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: 20% 25%;
     background-repeat: no-repeat;
-    filter: blur(5px);
+    filter: blur(2px);
     margin-top: 35px;
 }
 
@@ -16,7 +16,7 @@
     align-items: flex-start;
     position: relative;
     z-index: -1;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .shedule::before {
@@ -29,7 +29,7 @@
     background-image: url('../../../../public/images/green-back.jpeg');
     background-size: cover;
     background-position: 20% 60%;
-    filter: blur(5px); 
+    filter: blur(2px); 
     z-index: -1;
 }
 
