@@ -1,5 +1,6 @@
 import React from "react";
-import faces from "../../../public/images/face-image.jpg";
+import aboutImage from "../../../public/images/about-image.jpg";
+
 
 import "./component-style/aboutHome.css";
 
@@ -7,7 +8,7 @@ const HomeAbout = () => {
   return (
     <>
       <section className="about-section">
-        <img className="image-about" src={faces} alt="" />
+        <img className="image-about" src={aboutImage} alt="" />
         <div>
           <h2 className="caption-about">Немного о себе</h2>
           <p className="text-about">Я занимаюсь маникюром более 2-х лет</p>
