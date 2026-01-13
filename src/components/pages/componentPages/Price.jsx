@@ -30,7 +30,7 @@ const Price = () => {
     </div>
 
     <div className="service-box box-2">
-        <h3 className="caption-price">Покрытие</h3>
+        <h3 className="caption-price">Спа услуги</h3>
         <p className="service-item">Скраб для рук <span className="price">150</span></p>
         <p className="service-item">Парафин <span className="price">399</span></p>
         <p className="service-item">Массаж для рук <span className="price">200</span></p>

@@ -1,7 +1,6 @@
 import React from "react";
 import aboutImage from "../../../public/images/about-image.jpg";
 
-
 import "./component-style/aboutHome.css";
 
 const HomeAbout = () => {
@@ -13,10 +12,10 @@ const HomeAbout = () => {
           <h2 className="caption-about">Немного о себе</h2>
           <p className="text-about">Я занимаюсь маникюром более 2-х лет</p>
           <p className="text-about">
-            Для красивого маникюра я использую только качественые материалы
+            Для красивого маникюра я использую только качественые материалы.
           </p>
           <p className="text-about">
-            работаю как аппаратным так и любым другим?
+          Владею всеми техниками маникюра, включая аппаратную обработку ногтей.
           </p>
         </div>
       </section>

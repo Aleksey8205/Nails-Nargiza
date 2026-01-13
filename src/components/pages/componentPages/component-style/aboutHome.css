@@ -32,7 +32,8 @@
 
 .text-about {
     position: relative;
-    padding-left: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
     font-size: 12px;
 }
 
@@ -46,8 +47,8 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: gray;
     border-radius: 3px;
 }

@@ -20,7 +20,7 @@ const Home = () => {
         <div className="video-container">
           <div className="text-container">
             <h2 className="caption-name">Наргиз</h2>
-            <h2 className="caption-name family-right">(Фамилия)</h2>
+            <h2 className="caption-name family-right">Орлова</h2>
             <p className="text-beauty">Лучший бьюти мастер</p>
             <img src="" alt="" />
           </div>
